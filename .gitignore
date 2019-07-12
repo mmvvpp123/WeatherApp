@@ -102,3 +102,12 @@ venv.bak/
 
 # mypy
 .mypy_cache/
+
+
+#own
+.DS_Store
+
+#heroku
+Procfile
+requirements.txt
+runtime.txt
