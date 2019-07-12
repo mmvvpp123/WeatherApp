@@ -1,0 +1,9 @@
+{% extends 'core/home.html' %}
+
+{%block weatherinfo%}
+<p>Weather for <span class="city">{{ city }}</span></p>
+<p><h1 class="temp">{{ temp }}°</h1></p>
+<p>{{ desc | title }}</p>
+<p>{{ wind_speed }} MPH</p>
+<img src="http://openweathermap.org/img/wn/{{ icon_id }}@2x.png" alt="Weather">
+{%endblock%}

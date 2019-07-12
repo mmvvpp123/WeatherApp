@@ -1,0 +1,36 @@
+body {
+  padding-top: 10%;
+  background-color: #59594a;
+}
+h1 {
+  color: #ffc857;
+}
+#button {
+  background-color: #ec6e4c;
+  color: black;
+  border: 0px;
+  border-radius: 10px;
+  padding: 1%;
+  transition: 0.2s ease;
+  width: 100px;
+}
+a {
+  color: #3a7ca5;
+}
+p {
+  color: #a3bfa8;
+}
+
+#button:hover {
+  background-color: #d76446;
+}
+
+#zipcode {
+  border-radius: 10px;
+  border: 1px solid black;
+  padding: 1%;
+  width: 200px;
+}
+
+.temp {
+}
