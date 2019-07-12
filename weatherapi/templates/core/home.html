@@ -17,9 +17,11 @@
       <form class="form" action="../weather/" method="post">{% csrf_token %}
         <p><input type="text" name="zip_code" placeholder="Zip Code" id="zipcode"></p>
         <p><input id='button' type="submit" value="Go"></p>
-        {% block weatherinfo %}
-        {% endblock %}
       </form>
+      {% block weatherinfo %}
+      {% endblock %}
+
+      <p class="bottom_text"><a href="https://openweathermap.org/" target="_blank">Open Weather Map API</a></p>
     </div>
 
 

@@ -33,5 +33,13 @@ p {
   width: 200px;
 }
 
-.temp {
+.bottom_text {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  left: 0;
+}
+
+.bottom_text a {
+  color: black;
 }
