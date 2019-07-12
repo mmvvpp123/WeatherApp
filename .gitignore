@@ -111,3 +111,4 @@ venv.bak/
 Procfile
 requirements.txt
 runtime.txt
+/staticfiles
