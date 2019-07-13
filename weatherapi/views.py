@@ -7,7 +7,7 @@ def home(request):
     return render (request, 'core/home.html', {})
 
 def weather(request):
-    form = ZipCode(request.POST)
+    form = ZipCode(request.GET)
 
     zip= form['zip_code'].value()
     if zip == None:

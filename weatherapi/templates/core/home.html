@@ -14,7 +14,7 @@
   <body>
     <div class="container text-center">
       <h1><a href="../">Weather API</a></h1>
-      <form class="form" action="../weather/" method="post">{% csrf_token %}
+      <form class="form" action="../weather/" method="get">{% csrf_token %}
         <p><input type="text" name="zip_code" placeholder="Zip Code" id="zipcode"></p>
         <p><input id='button' type="submit" value="Go"></p>
       </form>
