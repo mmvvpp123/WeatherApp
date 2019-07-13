@@ -108,7 +108,7 @@ venv.bak/
 .DS_Store
 
 #heroku
-#Procfile
-#requirements.txt
-#runtime.txt
-#/staticfiles
+Procfile
+requirements.txt
+runtime.txt
+/staticfiles
